@@ -3,8 +3,13 @@ body{
     margin: 0;
 }
 
+h1:hover{
+    color: rgb(55, 230, 215);
+}
+
 h1{
     font-size: 50px;
+    cursor: pointer;
 }
 h1,h3,p{
     color: black;
@@ -37,6 +42,9 @@ section{
     padding: 3%;
     display: inline-block;
     /* border: 2px solid black; */
+}
+.link-button:hover{
+    color: rgb(5, 5, 5);
 }
 
 .link-button{
