@@ -21,28 +21,47 @@ span{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
-
+/* this is the main image  */
 .first-image>img{
     width: 80%;
     /* width: 800px;
     height: 300px; */
 }
+.second-image>img{
+    width: 70%;
+}
 
 .first-text{
     width: 50%;
     padding: 4%;
-    display: inline-block;
+    /* display: inline-block; */
     /* border: 2px solid black; */
     
 }
+
+.second-text{
+    padding: 3%;
+    width: 50%;
+}
+
+/* first image is a container  */
+
 .first-image {
     /* width: 50%; */
     padding: 3%;
-    display: inline-block;
+    
     /* border: 2px solid black; */
 }
+
+.second-image{
+    padding: 2%;
+    /* border: 2px solid black; */
+    /* width: 50%; second text e width disi ti dia lagbe na */
+}
+
 .link-button:hover{
     color: rgb(5, 5, 5);
 }
@@ -55,9 +74,19 @@ section{
     padding: 8px 40px;
     
 }
+
+}
 .top-banner{
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url(images/4931029.jpg) ;
     
 }
+.middle-banner{
+    
+    background-image: url(images/4931029.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
