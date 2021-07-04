@@ -111,6 +111,9 @@ h1,h3,p{
     
 
 }
+.footer{
+    text-align: center;
+}
 #web-ex{
     border-left: 8px solid;
     border-image: linear-gradient(rgb(0, 0, 167),rgb(85, 85, 199),lightblue);
